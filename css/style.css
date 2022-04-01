@@ -1,0 +1,61 @@
+:root {
+    --main-font: ;
+    --secondary-font: ;
+    --main-text-color-theme-dark: ;
+    --secondary-text-color-theme-dark: ;
+    --main-text-color-theme-light: ;
+    --secondary-text-color-theme-light: ;
+    --accent-color: ;
+}
+/* heder
+color: #757575;контакты
+color: #2196F3; синий
+color: #212121 черн в  меню
+*/
+
+/*main
+color: #FFFFFF; бел H1
+color: #212121; h2, h3
+color: #757575; p
+*/
+
+/*footer
+color: #FFFFFF; адрес
+color: rgba(255, 255, 255, 0.6); маил, тел
+*/
+
+.logoleft {
+color: #2196F3;
+}
+.logoright {
+    color: #212121;
+}
+.logorightfoot {
+    color: #ffffff;
+}
+.menu-link{
+    color: #212121;
+}
+.contact-link {
+    color: #757575;
+}
+.menu-link:hover,
+.contact-link:hover,
+.menu-link:focus,
+.contact-link:focus {
+     color: #2196F3;
+}
+/*main*/
+.hero {
+    color: #ffffff;
+}
+.modal-btn {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+.advantag-title {
+    color: #212121;
+}
+.advantag-text {
+    color: #757575;
+}
