@@ -1,5 +1,5 @@
 :root {
-    --first-font: 'Roboto';
+    --first-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway';
     --first-text-color: #212121;
     --secondary-color: #2196F3;
@@ -26,6 +26,9 @@ color: #757575; p
 color: #FFFFFF; адрес
 color: rgba(255, 255, 255, 0.6); маил, тел
 */
+body {
+    font-family: var(--first-font);
+}
 .link {
     text-decoration: none;
 }
@@ -37,7 +40,7 @@ color: var(--secondary-color);
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .logoright {
@@ -45,7 +48,7 @@ letter-spacing: 0.03em;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .logorightfoot {
@@ -53,15 +56,15 @@ letter-spacing: 0.03em;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .menu-link{
     color: var(--first-text-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .contact-link {
@@ -76,10 +79,10 @@ letter-spacing: 0.03em;
 /*main*/
 .hero>.main-title {
     color: var(--text-color-white);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -87,24 +90,26 @@ letter-spacing: 0.03em;
 .modal-btn {
     color: var(--text-color-white);
     background-color: var(--secondary-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .btn-filtr {
     color: var(--first-text-color);
     background-color: var(--backgroung-filtr-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .btn-filtr:hover, 
 .btn-filtr:focus {
@@ -113,62 +118,59 @@ letter-spacing: 0.03em;
 }
 .advantag-title {
     color: var(--first-text-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .advantag-text {
     color: var(--secondary-text-color);
-    font-family: var(--first-font);
-    font-weight: 400;
+    /*font-family: var(--first-font);*/
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .work {
     color: var(--first-text-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-name {
     color: var(--first-text-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-position {
     color: var(--secondary-text-color);
-    font-family: var(--first-font);
-    font-weight: 400;
+    /*font-family: var(--first-font);*/
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .name-proj {
     color: var(--first-text-color);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .area-proj {
     color: var(--secondary-text-color);
-    font-family: var(--first-font);
-    font-weight: 400;
+    /*font-family: var(--first-font);*/
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
 }
 /*footer*/
@@ -177,11 +179,10 @@ letter-spacing: 0.03em;
 .tel
     {
     color: var(--text-color-white);
-    font-family: var(--first-font);
+    /*font-family: var(--first-font);*/
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .mail {
@@ -190,6 +191,15 @@ letter-spacing: 0.03em;
 .tel {
     color: var(--adr-link-color);
  } 
+.post-adr:hover,
+.mail:hover,
+.tel:hover,
+.post-adr:focus,
+.mail:focus,
+.tel:focus
+ {
+    color: var(--secondary-color);
+}
  footer {
      background-color: var(--hero-footer-bg-color);
  }
