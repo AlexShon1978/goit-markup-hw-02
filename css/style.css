@@ -28,6 +28,7 @@ color: rgba(255, 255, 255, 0.6); маил, тел
 */
 body {
     font-family: var(--first-font);
+    color: var(--first-text-color);
 }
 .link {
     text-decoration: none;
@@ -69,12 +70,12 @@ letter-spacing: 0.03em;
 }
 .contact-link {
     color: var(--secondary-text-color);
- }
+}
 .menu-link:hover,
 .contact-link:hover,
 .menu-link:focus,
 .contact-link:focus {
-     color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 /*main*/
 .hero>.main-title {
@@ -190,19 +191,17 @@ letter-spacing: 0.03em;
 }
 .tel {
     color: var(--adr-link-color);
- } 
+} 
 .post-adr:hover,
 .mail:hover,
 .tel:hover,
 .post-adr:focus,
 .mail:focus,
-.tel:focus
- {
+.tel:focus{
     color: var(--secondary-color);
 }
- footer {
-     background-color: var(--hero-footer-bg-color);
- }
- section.hero {
+footer {background-color: var(--hero-footer-bg-color);
+}
+section.hero {
     background-color: var(--hero-footer-bg-color);
- }
+}
