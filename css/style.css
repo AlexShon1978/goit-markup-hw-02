@@ -8,6 +8,7 @@
     --adr-link-color:rgba(255, 255, 255, 0.6);
     --backgroung-filtr-color: #F5F4FA;
     --hero-footer-bg-color: #2F303A;
+    --background-color: #E5E5E5;
 }
 /* heder
 color: #757575;контакты
@@ -29,6 +30,12 @@ color: rgba(255, 255, 255, 0.6); маил, тел
 body {
     font-family: var(--first-font);
     color: var(--first-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--background-color);
+}
+a {
+    text-decoration: none;
 }
 .link {
     text-decoration: none;
@@ -42,7 +49,6 @@ font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
-letter-spacing: 0.03em;
 }
 .logoright {
     color: var(--first-text-color);
@@ -50,7 +56,6 @@ letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 .logorightfoot {
     color: var(--text-color-white);
@@ -58,11 +63,9 @@ letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 .menu-link{
     color: var(--first-text-color);
-    /*font-family: var(--first-font);*/
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -80,7 +83,6 @@ letter-spacing: 0.03em;
 /*main*/
 .hero>.main-title {
     color: var(--text-color-white);
-    /*font-family: var(--first-font);*/
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,7 +93,6 @@ letter-spacing: 0.03em;
 .modal-btn {
     color: var(--text-color-white);
     background-color: var(--secondary-color);
-    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -104,12 +105,11 @@ letter-spacing: 0.03em;
 .btn-filtr {
     color: var(--first-text-color);
     background-color: var(--backgroung-filtr-color);
-    /*font-family: var(--first-font);*/
+    font-family: var(--first-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .btn-filtr:hover, 
@@ -118,50 +118,34 @@ letter-spacing: 0.03em;
     background-color: var(--secondary-color);
 }
 .advantag-title {
-    color: var(--first-text-color);
-    /*font-family: var(--first-font);*/
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .advantag-text {
     color: var(--secondary-text-color);
-    /*font-family: var(--first-font);*/
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 .work {
-    color: var(--first-text-color);
-    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-name {
-    color: var(--first-text-color);
-    /*font-family: var(--first-font);*/
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-position {
-    color: var(--secondary-text-color);
-    /*font-family: var(--first-font);*/
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .name-proj {
     color: var(--first-text-color);
-    /*font-family: var(--first-font);*/
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -169,10 +153,8 @@ letter-spacing: 0.03em;
 }
 .area-proj {
     color: var(--secondary-text-color);
-    /*font-family: var(--first-font);*/
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
 }
 /*footer*/
 .post-adr,
@@ -180,11 +162,9 @@ letter-spacing: 0.03em;
 .tel
     {
     color: var(--text-color-white);
-    /*font-family: var(--first-font);*/
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 .mail {
     color: var(--adr-link-color);
